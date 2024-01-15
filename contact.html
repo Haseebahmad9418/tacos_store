@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Haseeb Ahmad">
+    <meta name="description" content="I m creating this website for tacos store loacated somewhere.">
+    <title>Taco Shop - Contact Us</title>
+    <link rel="icon" href="img/tacos.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="topheader">
+            <!-- <div>
+                <img src="img\tacos_icon.png" style="align-items: left;" alt="tacos_icon">
+            </div> -->
+                <h1 id="mainheading">
+                    <br>Contact Us!
+                </h1>
+        </div>
+        <nav aria-labelledby="primary-navigation">
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About LTS</a>
+                <a href="index.html#menu">Our Menu</a>
+                <a href="store.html">Store Hours</a>
+
+            </div>
+        </nav>
+        <figure>
+            <img src="img/tacos_n_drink.jpeg" alt="tacos_n_drink" title="I love Tacos and drink" width="250" height="150" loading="lazy">
+            <figcaption>Tacos and Drink</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <h1>Our Contact Form</h1>
+        <article>
+            <section>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>Contact Us!</legend>
+                        <p>
+                            <label for="firstname">First Name: </label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Enter your first name" autofocus required>
+                        </p>
+                        <p>
+                            <label for="lastname">Last Name: </label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Enter your last name" autofocus required>
+                        </p>
+                        <p>
+                            <label for="msg">Your message!</label>
+                            <input type="text" name="msgText" id="Msg" placeholder="Write your message here..." required height="200" width="200">
+                        </p>
+                        <button>Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h1>Location</h1>
+                <address>555 Taco Temptation lane, Suit T <br> Kangas City, MO</address>
+                Phone: <a id="backtotop" href="tel:+923425714644">+923425714644</a>
+            </section>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>
+            <a id="backtotop" href="#">Back To Top</a>
+        </p>
+        <p>
+            Copyright &copy; The tacos Store
+        </p>
+    </footer>
+</body>
+</html>
